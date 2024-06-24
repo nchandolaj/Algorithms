@@ -1,0 +1,13 @@
+# Class: Superclass for all sort algorithms implemented in the github repository
+# Description: Abstract Base Class for all sort algorithms implemented in the github repository
+# SortAlgorithm.py
+
+from abc import ABC, abstractmethod
+
+class SortAlgorithm(metaclass=ABCMeta):
+  def __init__(self, name):
+    self.name = name
+  
+  @abstractmethod
+  def sort(self, list):
+    pass
