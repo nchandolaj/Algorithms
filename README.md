@@ -1,4 +1,4 @@
-This algorithm repository contains a list of simple software algorithms implemented in Python.
+This github repository contains a list of simple software algorithms implemented in Python.
 
 I am using this repository as a mechanism to 
 1. refresh my software development skills
